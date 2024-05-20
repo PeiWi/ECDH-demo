@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECDH</title>
+    <SCRIPT type="module" src="./index.js"></SCRIPT>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dchest/tweetnacl-js@1.0.3/nacl.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tweetnacl@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tweetnacl-util@latest"></script>
+</head>
+
+<body>
+    <button id="btnNext" onclick="decryptCBCmessage()">Decrypt CBC message</button>
+    <button id="btnNext" onclick="decryptGCMmessage()">Decrypt GCM message</button>
+    <button id="btnNext" onclick="encryptMessage()">Encrypt Message</button>
+    <!-- <button id="btnNext" onclick="kyberencryptMessage()">Kyber Encrypt Message</button> -->
+</body>
+
+</html>
